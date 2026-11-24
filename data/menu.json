@@ -1,0 +1,127 @@
+{
+  "_note": "サンプルデータです。実際の料理・価格・アレルギー情報はお店で確認してから差し替えてください。",
+  "categories": ["starter", "main", "dessert", "drink"],
+  "items": [
+    {
+      "id": "edamame",
+      "category": "starter",
+      "price": 300,
+      "name": { "ja": "枝豆", "en": "Edamame", "zh-Hans": "毛豆", "zh-Hant": "毛豆", "ko": "풋콩(에다마메)" },
+      "desc": { "ja": "塩ゆでした若い大豆。", "en": "Young soybeans boiled with salt.", "zh-Hans": "盐水煮嫩大豆。", "zh-Hant": "鹽水煮嫩大豆。", "ko": "소금물에 삶은 어린 대두." },
+      "allergens": ["soy"],
+      "may_contain": [],
+      "tags": ["vegan", "vegetarian"],
+      "spicy": 0
+    },
+    {
+      "id": "gomaae",
+      "category": "starter",
+      "price": 350,
+      "name": { "ja": "ほうれん草のごま和え", "en": "Spinach with Sesame Dressing", "zh-Hans": "芝麻拌菠菜", "zh-Hant": "芝麻拌菠菜", "ko": "시금치 참깨무침" },
+      "desc": { "ja": "ゆでたほうれん草を甘いごまだれで和えました。", "en": "Boiled spinach tossed in a sweet sesame sauce.", "zh-Hans": "焯过的菠菜拌上香甜芝麻酱。", "zh-Hant": "汆燙菠菜拌上香甜芝麻醬。", "ko": "데친 시금치를 달콤한 참깨 소스로 무쳤습니다." },
+      "allergens": ["sesame", "soy", "wheat"],
+      "may_contain": [],
+      "tags": [],
+      "spicy": 0
+    },
+    {
+      "id": "ebiten",
+      "category": "starter",
+      "price": 580,
+      "name": { "ja": "えびの天ぷら", "en": "Shrimp Tempura", "zh-Hans": "炸虾天妇罗", "zh-Hant": "炸蝦天婦羅", "ko": "새우튀김(덴푸라)" },
+      "desc": { "ja": "サクッと揚げたえびの天ぷら。天つゆでどうぞ。", "en": "Crispy fried shrimp, served with tempura dipping sauce.", "zh-Hans": "酥脆的炸虾，蘸天妇罗汁享用。", "zh-Hant": "酥脆的炸蝦，沾天婦羅醬汁享用。", "ko": "바삭하게 튀긴 새우. 덴쓰유 소스와 함께 드세요." },
+      "allergens": ["shrimp", "wheat", "egg", "soy"],
+      "may_contain": ["squid", "crab"],
+      "tags": [],
+      "spicy": 0
+    },
+    {
+      "id": "karaage",
+      "category": "main",
+      "price": 680,
+      "name": { "ja": "鶏の唐揚げ", "en": "Japanese Fried Chicken", "zh-Hans": "日式炸鸡", "zh-Hant": "日式炸雞", "ko": "닭튀김(가라아게)" },
+      "desc": { "ja": "しょうゆとしょうがで下味をつけたジューシーな唐揚げ。", "en": "Juicy fried chicken marinated in soy sauce and ginger.", "zh-Hans": "用酱油和生姜腌制的多汁炸鸡。", "zh-Hant": "以醬油和生薑醃製的多汁炸雞。", "ko": "간장과 생강으로 밑간한 육즙 가득한 닭튀김." },
+      "allergens": ["wheat", "soy", "chicken"],
+      "may_contain": ["egg", "shrimp"],
+      "tags": [],
+      "spicy": 0
+    },
+    {
+      "id": "gyudon",
+      "category": "main",
+      "price": 750,
+      "name": { "ja": "牛丼", "en": "Beef Rice Bowl", "zh-Hans": "牛肉盖饭", "zh-Hant": "牛肉蓋飯", "ko": "규동(소고기덮밥)" },
+      "desc": { "ja": "甘辛く煮た牛肉と玉ねぎをごはんにのせました。", "en": "Beef and onions simmered in a sweet soy sauce, served over rice.", "zh-Hans": "甜咸口味炖煮的牛肉和洋葱盖在米饭上。", "zh-Hant": "甜鹹口味燉煮的牛肉和洋蔥鋪在白飯上。", "ko": "달짝지근하게 조린 소고기와 양파를 밥 위에 올렸습니다." },
+      "allergens": ["beef", "soy", "wheat"],
+      "may_contain": [],
+      "tags": [],
+      "spicy": 0
+    },
+    {
+      "id": "tantanmen",
+      "category": "main",
+      "price": 900,
+      "name": { "ja": "担々麺", "en": "Tantanmen (Spicy Sesame Ramen)", "zh-Hans": "担担面", "zh-Hant": "擔擔麵", "ko": "탄탄멘" },
+      "desc": { "ja": "ごまと辣油のピリ辛スープに豚ひき肉をのせたラーメン。", "en": "Ramen in a spicy sesame and chili oil broth, topped with minced pork.", "zh-Hans": "芝麻辣油汤底拉面，配猪肉末。", "zh-Hant": "芝麻辣油湯底拉麵，配豬絞肉。", "ko": "참깨와 고추기름의 매콤한 국물에 다진 돼지고기를 올린 라멘." },
+      "allergens": ["wheat", "sesame", "soy", "pork", "chicken", "peanut"],
+      "may_contain": ["egg"],
+      "tags": [],
+      "spicy": 2
+    },
+    {
+      "id": "salmon_ikura_don",
+      "category": "main",
+      "price": 1200,
+      "name": { "ja": "サーモンいくら丼", "en": "Salmon & Salmon Roe Bowl", "zh-Hans": "三文鱼鲑鱼子盖饭", "zh-Hant": "鮭魚鮭魚卵蓋飯", "ko": "연어 연어알 덮밥" },
+      "desc": { "ja": "新鮮なサーモンといくらをたっぷりのせた海鮮丼。", "en": "Rice bowl topped with fresh salmon and salmon roe.", "zh-Hans": "铺满新鲜三文鱼和鲑鱼子的海鲜盖饭。", "zh-Hant": "鋪滿新鮮鮭魚和鮭魚卵的海鮮蓋飯。", "ko": "신선한 연어와 연어알을 듬뿍 올린 해산물 덮밥." },
+      "allergens": ["salmon", "salmon_roe", "soy", "wheat"],
+      "may_contain": ["mackerel", "squid"],
+      "tags": [],
+      "spicy": 0
+    },
+    {
+      "id": "matcha_pudding",
+      "category": "dessert",
+      "price": 400,
+      "name": { "ja": "抹茶プリン", "en": "Matcha Pudding", "zh-Hans": "抹茶布丁", "zh-Hant": "抹茶布丁", "ko": "말차 푸딩" },
+      "desc": { "ja": "濃厚な抹茶のなめらかプリン。", "en": "Smooth pudding with rich matcha green tea.", "zh-Hans": "浓郁抹茶口味的顺滑布丁。", "zh-Hant": "濃郁抹茶口味的滑順布丁。", "ko": "진한 말차의 부드러운 푸딩." },
+      "allergens": ["milk", "egg", "gelatin"],
+      "may_contain": [],
+      "tags": ["vegetarian"],
+      "spicy": 0
+    },
+    {
+      "id": "fruit_parfait",
+      "category": "dessert",
+      "price": 550,
+      "name": { "ja": "フルーツパフェ", "en": "Fruit Parfait", "zh-Hans": "水果芭菲", "zh-Hant": "水果聖代", "ko": "과일 파르페" },
+      "desc": { "ja": "季節のフルーツとアイス、くるみをのせたパフェ。", "en": "Parfait with seasonal fruit, ice cream and walnuts.", "zh-Hans": "搭配时令水果、冰淇淋和核桃的芭菲。", "zh-Hant": "搭配當季水果、冰淇淋和核桃的聖代。", "ko": "제철 과일과 아이스크림, 호두를 올린 파르페." },
+      "allergens": ["milk", "banana", "kiwi", "orange", "peach", "apple", "walnut"],
+      "may_contain": ["peanut", "almond"],
+      "tags": ["vegetarian"],
+      "spicy": 0
+    },
+    {
+      "id": "orange_juice",
+      "category": "drink",
+      "price": 350,
+      "name": { "ja": "オレンジジュース", "en": "Orange Juice", "zh-Hans": "橙汁", "zh-Hant": "柳橙汁", "ko": "오렌지 주스" },
+      "desc": { "ja": "果汁100%。", "en": "100% fruit juice.", "zh-Hans": "100%纯果汁。", "zh-Hant": "100%純果汁。", "ko": "과즙 100%." },
+      "allergens": ["orange"],
+      "may_contain": [],
+      "tags": ["vegan", "vegetarian"],
+      "spicy": 0
+    },
+    {
+      "id": "green_tea",
+      "category": "drink",
+      "price": 200,
+      "name": { "ja": "緑茶", "en": "Green Tea", "zh-Hans": "绿茶", "zh-Hant": "綠茶", "ko": "녹차" },
+      "desc": { "ja": "温かい日本の緑茶。", "en": "Hot Japanese green tea.", "zh-Hans": "热的日本绿茶。", "zh-Hant": "熱的日本綠茶。", "ko": "따뜻한 일본 녹차." },
+      "allergens": [],
+      "may_contain": [],
+      "tags": ["vegan", "vegetarian"],
+      "spicy": 0
+    }
+  ]
+}

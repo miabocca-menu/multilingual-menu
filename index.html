@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu / メニュー</title>
+  <meta name="description" content="多言語メニューとアレルギー情報 / Multilingual menu with allergen information">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-block">
+        <h1 id="store-name">メニュー</h1>
+        <p id="subtitle" class="subtitle"></p>
+      </div>
+      <div id="lang-switch" class="lang-switch" role="group"></div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <details id="filter" class="filter">
+      <summary>
+        <span id="filter-title"></span>
+        <span id="selected-count" class="selected-count"></span>
+      </summary>
+      <div class="filter-body">
+        <p id="filter-help" class="filter-help"></p>
+        <fieldset class="allergen-group mandatory-group">
+          <legend id="mandatory-label"></legend>
+          <div id="mandatory-list" class="check-grid"></div>
+        </fieldset>
+        <fieldset class="allergen-group">
+          <legend id="recommended-label"></legend>
+          <div id="recommended-list" class="check-grid"></div>
+        </fieldset>
+        <fieldset class="mode-group">
+          <legend id="mode-label"></legend>
+          <label class="radio"><input type="radio" name="mode" value="hide" checked> <span id="mode-hide"></span></label>
+          <label class="radio"><input type="radio" name="mode" value="warn"> <span id="mode-warn"></span></label>
+          <label class="radio"><input type="checkbox" id="include-may" checked> <span id="include-may-label"></span></label>
+        </fieldset>
+        <button type="button" id="clear-btn" class="clear-btn"></button>
+      </div>
+    </details>
+
+    <nav id="cat-nav" class="cat-nav"></nav>
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+    <main id="menu" class="menu"></main>
+  </div>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p id="disclaimer" class="disclaimer"></p>
+      <p id="sample-note" class="sample-note"></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
